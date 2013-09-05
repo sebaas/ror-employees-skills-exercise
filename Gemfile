@@ -39,6 +39,7 @@ group :test do
   # database_cleaner is not required, but highly recommended
   gem 'database_cleaner'
   gem 'spork', '~> 1.0rc'
+  gem "factory_girl_rails", "~> 4.0"
 end
 
 # Use ActiveModel has_secure_password
